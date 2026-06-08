@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <push_ros_namespace namespace="executor"/>
+  <node pkg="executor_remake" exec="executor_node" name="executor_node" output="screen"/>
+</launch>
