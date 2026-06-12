@@ -2,4 +2,5 @@
 <launch>
   <push_ros_namespace namespace="executor"/>
   <node pkg="executor_remake" exec="executor_node" name="executor_node" output="screen"/>
+  <!--pop_ros_namespace/-->
 </launch>
